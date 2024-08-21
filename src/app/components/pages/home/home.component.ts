@@ -9,6 +9,8 @@ export class HomeComponent implements OnInit {
   constructor() { }
   formConfig = {
     "fields": [
+      { "type": "text", "name": "firstname", "label": "First Name", "placeholder": "Enter your first name", "required": true },
+      { "type": "text", "name": "lastname", "label": "Last Name", "placeholder": "Enter your last name", "required": true },
       { "type": "text", "name": "username", "label": "Username", "placeholder": "Enter your username", "required": true },
       { "type": "email", "name": "email", "label": "Email", "placeholder": "Enter your email", "required": true },
       { "type": "select", "name": "country", "label": "Country", "options": [{ "value": "us", "label": "United States" }, { "value": "ca", "label": "Canada" }], "required": true },
